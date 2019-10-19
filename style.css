@@ -21,3 +21,14 @@
   height: 35px;
   width: 35px;
 }
+
+.r-t-l-f-s {
+  background: linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee);
+  background-position: 76% 75%, 80% 80%, 67% 65%, 59% 51%, 49% 40%, 42% 26%, 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 54% 52%, 60% 60%, 60% 60%, 60% 60%, 60% 60%, 60% 60%, 100% 100%;
+  padding: 18px 0 0 30px;
+  height: 50px;
+  width: 70px;
+}
+/*100% 100%, 90% 85%*/
