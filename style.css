@@ -1,6 +1,4 @@
-.abs-btm {
-  bottom: 0;
-}
+.abs-btm { bottom: 0; }
 
 .art-red-img {
   background: url(https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bd06.png) 50% 50% no-repeat, linear-gradient(#f00, #f00);
@@ -9,9 +7,7 @@
   width: 63px;
 }
 
-.the-N {
-  font-family: Impact, fantasy;
-}
+.the-N { font-family: Impact, fantasy; }
 
 .the-NN {
   background: linear-gradient(#f00,#f00), linear-gradient(#fff,#fff), linear-gradient(#f00,#f00);
@@ -38,8 +34,12 @@
   width: 260px; /*170x227px each*/
 }
 
-
+.nw-logo { fill: #f00; }
 .nl-img {
   background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf") no-repeat scroll center center / cover;
   height: 160px;
 }
+
+.svg-logo { fill:#666; }
+
+.svg-logo:hover { fill: #06f; }
