@@ -45,3 +45,5 @@
 .svg-logo { fill:#666; }
 
 .svg-logo:hover { fill: #06f; }
+
+@media(min-width: 992px) { .h-txt { display: none; } }
