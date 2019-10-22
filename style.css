@@ -31,13 +31,15 @@
 .subs-d-img {
   background: url(https://d.newsweek.com/en/full/1536427/october-25-2019.jpg?w=170&q=95&f=0333f16b44e9f9eea68d782c8b69ddb4) 100% 100% no-repeat, url(https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=170&q=95&f=a78cd4d1f090989a835fd1efa3fa1833) 12% 0% no-repeat;
   height: 241px;
-  width: 260px; /*170x227px each*/
+  max-width: 260px !important; /*170x227px*//*with a normal width it didn't obbey*/
+  width: 260px !important;
 }
 
 .nw-logo { fill: #f00; }
 .nl-img {
   background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf") no-repeat scroll center center / cover;
-  height: 160px;
+  min-height: 160px;
+  max-height: 370px;
 }
 
 .svg-logo { fill:#666; }
