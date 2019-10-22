@@ -36,11 +36,23 @@
 }
 
 .nw-logo { fill: #f00; }
+
+.nw-logo-n1 { fill: #fff; }
+
+.nw-logo-n2 {
+  fill: #fff;
+  width: 160px;
+}
+
 .nl-img {
   background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf") no-repeat scroll center center / cover;
   min-height: 160px;
   max-height: 370px;
 }
+
+.continued-small { z-index: -1 !important; }
+
+section { z-index: -3 !important; }
 
 .svg-logo { fill:#666; }
 
