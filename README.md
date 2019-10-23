@@ -15,4 +15,4 @@ For more info, check the [Odin Project](https://www.theodinproject.com/courses/h
 
 
 Collaborators & profiles link:
-- J.Alfredo Cardenas - [GitHub](https://github.com/newincome)
+- J. Alfredo Cardenas - [GitHub](https://github.com/newincome)
