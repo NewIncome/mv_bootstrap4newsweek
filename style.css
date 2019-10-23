@@ -10,7 +10,7 @@
 .the-N { font-family: Impact, fantasy; }
 
 .the-NN {
-  background: linear-gradient(#f00,#f00), linear-gradient(#fff,#fff), linear-gradient(#f00,#f00);
+  background: linear-gradient(#f00, #f00), linear-gradient(#fff, #fff), linear-gradient(#f00, #f00);
   background-position: 0% 0%, 50% 50%, 100% 100%;
   background-repeat: no-repeat;
   background-size: 90% 90%, 85% 85%, 85% 85%;
@@ -19,7 +19,7 @@
 }
 
 .r-t-l-f-s {
-  background: linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee), linear-gradient(#e00,#e00), linear-gradient(#eee,#eee);
+  background: linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee);
   background-position: 76% 75%, 80% 80%, 67% 65%, 59% 51%, 49% 40%, 42% 26%, 100% 100%;
   background-repeat: no-repeat;
   background-size: 54% 52%, 60% 60%, 60% 61%, 60% 60%, 60% 62%, 60% 60%, 100% 100%;
@@ -27,11 +27,12 @@
   height: 50px;
   width: 70px;
 }
+
 /*100% 100%, 90% 85%*/
 .subs-d-img {
   background: url(https://d.newsweek.com/en/full/1536427/october-25-2019.jpg?w=170&q=95&f=0333f16b44e9f9eea68d782c8b69ddb4) 100% 100% no-repeat, url(https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=170&q=95&f=a78cd4d1f090989a835fd1efa3fa1833) 12% 0% no-repeat;
   height: 241px;
-  max-width: 260px !important; /*170x227px*//*with a normal width it didn't obbey*/
+  max-width: 260px !important; /*170x227px_ _with a normal width it didn't obbey*/
   width: 260px !important;
 }
 
@@ -56,8 +57,8 @@
 
 section { z-index: -3 !important; }
 
-.svg-logo { fill:#666; }
+.svg-logo { fill: #666; }
 
 .svg-logo:hover { fill: #06f; }
 
-@media(min-width: 992px) { .h-txt { display: none; } }
+@media (min-width: 992px) { .h-txt { display: none; } }
