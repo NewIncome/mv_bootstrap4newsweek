@@ -62,3 +62,7 @@ section { z-index: -3 !important; }
 .svg-logo:hover { fill: #06f; }
 
 @media (min-width: 992px) { .h-txt { display: none; } }
+
+@media (max-width: 500px) { .smaller-txt { font-size: 0.8rem; } }
+
+@media (max-width: 400px) { .smaller-svg { width: 100px !important; } }
