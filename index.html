@@ -1,0 +1,1001 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <!-- Required meta tags according to Bootstrap -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>NotiWeek</title>
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap CSS - CDN (Content Delivery Network) -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+  </head>
+  <body>
+<!--
+col-#  < 576px  :  Small ≥ 576px  :  Medium ≥ 768px  :  Large ≥ 992px  :  Extra large≥1200px
+-->
+    <nav class="">
+      <div class="normal-big bg-danger mb-4 d-none d-lg-block">
+        <div class="n-top navbar navbar-dark">
+          <p class="m-0">Sat, Feb 30, 600b.C.</p>
+          <a class="navbar-brand w-25 ml-3" href="">
+            <div class="nw-logo-n1 navbar-brand text-danger">
+              <svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 395.6 60" style="width: 360px;" xml:space="preserve"><g>
+                <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+              </g></svg>
+            </div>
+          </a>
+          <div class="row mr-2">
+            <div class="text-white font-weight-bold mx-2 px-2 align-self-center">SIGN-IN</div>
+            <div class="text-danger bg-white font-weight-bold px-2 align-self-center">SUBSCRIBE ></div>
+          </div>
+        </div>
+        <div class="n-bottom bg-white border-bottom text-nowrap">
+          <ul class="d-flex flex-row list-group font-weight-bold">
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">U.S.</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">World</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Business</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Tech & Science</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Culture</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Newsgeek</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Sports</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Health</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Opinion</li>
+            <li class="list-group-item border-left-0 border-top-0 border-bottom-0 p-0 pr-2 m-2 rounded-0">Vintage</li>
+          </ul>
+        </div>
+      </div>
+      <div class="continued-small bg-danger mb-4 p-0 fixed-top d-flex justify-content-between">
+        <a class="navbar-brand ml-3 mr-0" href="">
+          <div class="nw-logo-n2 smaller-svg navbar-brand text-danger mr-0">
+            <svg class="smaller-svg" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 395.6 60" style="width: 160px;"><g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+            </g></svg>
+          </div>
+        </a>
+        <div class="d-flex">
+          <div class="text-white font-weight-bold mx-1 px-1 mx-sm-2 px-sm-2 align-self-center text-nowrap smaller-txt">SIGN-IN</div>
+          <div class="text-danger bg-white font-weight-bold px-2 align-self-center smaller-txt">SUBSCRIBE<span class="d-none d-sm-inline"> ></span></div>
+          <div class="text-white font-weight-bold mx-1 px-0 mx-sm-2 px-sm-2 align-self-center mr-2 h4 mb-0">☰</div>
+        </div>
+      </div>
+    </nav>
+
+    <main class="d-md-flex flex-wrap pb-lg-4 mt-5 mt-lg-0 pt-3 pt-lg-0">
+      <div class="col1 d-md-flex flex-wrap col-md-7 col-lg-6 order-md-2 pl-md-0 px-lg-0">
+        <section class="top-story col-sm-12 mb-4 order-md-1 px-0">
+          <h5 class="small text-secondary font-weight-bold">TOP STORY</h5>
+          <div class="top-story-article">
+            <div class="position-relative">
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+              <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >SPACE</p>
+            </div>
+            <div class="card-body px-0 py-2">
+              <h6 class="card-title h5 mb-1 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="more-stories col-sm-12 order-md-3">
+          <h5 class="small text-secondary font-weight-bold">MORE STORIES</h5>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+          <div class="article container-fluid">
+            <div class="row border-top py-3">
+              <div class="col-5 pl-0 pr-2">
+                <img class="img-fluid" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt="">
+              </div>
+              <div class="col-7 pr-0 pl-2">
+                <h6 class="font-weight-bold">Zuckerberg: Tech Companies Shouldn't 'Judge' What's '100 Percent True'</h6>
+                <p class="small">"I certainly worry about an erosion of truth," the Facebook co-founder and CEO said in a speech at Georgetown University.</p>
+              </div>
+            </div>
+          </div>
+        </section>
+
+        <section class="culture-travel d-md-flex flex-wrap col-sm-12 mb-4 order-md-2 bg-light px-md-0">
+          <h5 class="small text-secondary font-weight-bold bg-light py-2 px-2 m-0 bg-light col-md-12">CULTURE & TRAVEL</h5>
+          <div class="col-md-6 pl-0 pr-2">
+            <div>
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+            </div>
+            <div class="card-body px-2 pt-3 pb-4 bg-light">
+              <h6 class="card-title font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small text-muted">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+              <a class="btn btn-info list-group-item-info px-1 py-0 rounded-0 border-0" href="#"><p class="small m-0">Space</p></a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-2 pr-0">
+            <div>
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+            </div>
+            <div class="card-body px-2 pt-3 pb-4 bg-light">
+              <h6 class="card-title font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small text-muted">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+              <a class="btn btn-info list-group-item-info px-1 py-0 rounded-0 border-0" href="#"><p class="small m-0">Space</p></a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-0 pr-2">
+            <div>
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+            </div>
+            <div class="card-body px-2 pt-3 pb-4 bg-light">
+              <h6 class="card-title font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small text-muted">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+              <a class="btn btn-info list-group-item-info px-1 py-0 rounded-0 border-0" href="#"><p class="small m-0">Space</p></a>
+            </div>
+          </div>
+          <div class="col-md-6 pl-2 pr-0">
+            <div>
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+            </div>
+            <div class="card-body px-2 pt-3 pb-4 bg-light">
+              <h6 class="card-title font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small text-muted">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+              <a class="btn btn-info list-group-item-info px-1 py-0 rounded-0 border-0" href="#"><p class="small m-0">Space</p></a>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col2 col-md-5 col-lg-3 order-md-1 pr-lg-0">
+        <section class="feat-stories col-sm-12 mb-4 sticky-top">
+          <h5 class="small text-secondary font-weight-bold">FEATURED STORIES</h5>
+          <div class="top-story-article">
+            <div class="position-relative">
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+              <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >POLITICS</p>
+            </div>
+            <div class="card-body px-0 py-2">
+              <h6 class="card-title h5 mb-1 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+            </div>
+          </div>
+          <div class="top-story-article">
+            <div class="position-relative">
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+              <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >WORLD</p>
+            </div>
+            <div class="card-body px-0 py-2">
+              <h6 class="card-title h5 mb-1 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+            </div>
+          </div>
+          <div class="top-story-article">
+            <div class="position-relative">
+              <img class="card-img-top rounded-0" src="https://www.entertales.com/wp-content/uploads/2016/09/NASA.jpg" alt=".?.">
+              <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >NEWS</p>
+            </div>
+            <div class="card-body px-0 py-2">
+              <h6 class="card-title h5 mb-1 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              <p class="card-text small">This is the first time in over fifty years of space exploration that two women will space-walk at the same time.</p>
+            </div>
+          </div>
+          <div class="top-story-article">
+            <div class="position-relative">
+              <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536550/best-customer-service-2020.jpg?w=397&amp;h=265&amp;q=90&amp;f=bc42d841c5c5ea9117b100b8a70b5410" alt=".?.">
+              <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >SURVEY</p>
+            </div>
+            <div class="card-body px-0 py-2">
+              <h6 class="card-title h5 mb-1 font-weight-bold">Best Customer Service since 600b.C.</h6>
+              <p class="card-text small">For the second milenia in a row, we worked with Statista to collect and analyze data across 1600000000 retail categories.</p>
+            </div>
+          </div>
+        </section>
+      </div>
+
+      <div class="col3 col-lg-3 order-md-3 pl-lg-0">
+        <section class="opinion col-sm-12 mb-4">
+          <h5 class="small text-secondary font-weight-bold">OPINION</h5>
+          <div class="article media border-bottom pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+          <div class="article media border-bottom pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+          <div class="article media border-bottom pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+          <div class="article media border-bottom pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+          <div class="article media border-bottom pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+          <div class="article media pt-3">
+            <div class="art-red-img mr-3 rounded-circle">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">The Fake 'Trump' Shooting Video Glorifies <span class="h-txt">the Gun Violence That Killed My Mother.</span></h6>
+              <p class="small font-weight-bold text-uppercase text-muted">By Reverend Sharon Risher</p>
+            </div>
+          </div>
+        </section>
+
+        <section class="latest-news col-sm-12 mb-4 sticky-top">
+          <h5 class="small text-secondary font-weight-bold">LATEST NEWS</h5>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2">
+            <div class="mr-3 col-4 col-md-2 col-lg-6 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537891/immigration-protest.jpg?w=397&amp;h=265&amp;l=0&amp;t=0&amp;f=67cc1dafa5f4e219867cebbd5bbb7495" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="small mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="row justify-content-center mt-3">
+            <div class="jumbotron pl-4 pr-0 py-4 mb-0 rounded-0 border">
+              <div class="row mx-0 mb-2">
+                <div class="the-N col-1 p-0 d-flex">
+                  <span class="bg-danger px-2 py-1 text-white font-weight-bolder align-self-center">N</span>
+                </div>
+                <h6 class="col-10 px-1 ml-2 font-weight-bold text-uppercase m-0 align-self-center ml-lg-3">Sign up for our Newsletter</h6>
+              </div>
+              <a class="btn btn-secondary btn-lg rounded-0 my-1 px-2" href=""><p class="small m-0 font-weight-bold">SIGN UP &#10148;</p></a>
+              <p class="small font-weight-bold my-1">Update your preferences »</p>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <section class="in-the-magazine col-sm-12 mb-4">
+      <div class="magazine-row-1 d-md-flex">
+        <div class="magazine-cover col-md-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://i.pinimg.com/736x/f6/cd/38/f6cd3869f5e298e77bcf80d2e3895e6f--fiction-stories-fiction-books.jpg" alt=".?.">
+            <p class="abs-btm small bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >OCTOBER 10 ISSUE</p>
+          </div>
+            <a class="text-decoration-none" href="#">
+              <div class="font-weight-bold list-group-item-light list-group-item-action text-dark text-center py-1">
+                SEE ALL FEATURES >
+              </div>
+            </a>
+        </div>
+        <div class="magazine-row1">
+          <!-- the  l e t t e r   " N " -->
+          <div class="the-letter-N-header row mx-0 my-3 justify-content-center border-bottom pb-2">
+            <div class="the-N p-0 d-flex">
+              <span class="bg-danger px-2 py-1 text-white font-weight-bolder align-self-center">N</span>
+            </div>
+            <h6 class="col-4 font-weight-bold text-uppercase m-0 align-self-center">In the Magazine</h6>
+          </div>
+          <!-- articles -->
+          <div class="magazine-row1-articles d-md-flex">
+            <div class="top-story-article col-md-4">
+              <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+              <div class="card-body px-0 py-2">
+                <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">COVER</span><a class="text-danger ml-2 text-decoration-none" href="">CANADA</a></p>
+                <h6 class="mb-1 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              </div>
+            </div>
+            <div class="top-story-article col-md-4">
+              <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+              <div class="card-body px-0 py-2">
+                <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">FEATURES</span><a class="text-danger ml-2 text-decoration-none" href="">CANADA</a></p>
+                <h6 class="mb-3 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              </div>
+            </div>
+            <div class="top-story-article col-md-4">
+              <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+              <div class="card-body px-0 py-2">
+                <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">PERISCOPE</span><a class="text-danger ml-2 text-decoration-none" href="">OPINION</a></p>
+                <h6 class="mb-3 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="magazine-row-2 d-md-flex">
+        <!-- articles -->
+        <div class="top-story-article col-md-3">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+          <div class="card-body px-0 py-2">
+            <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">PERISCOPE</span><a class="text-danger ml-2 text-decoration-none" href="">CULTURE</a></p>
+            <h6 class="mb-3 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+          </div>
+        </div>
+        <div class="top-story-article col-md-3">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+          <div class="card-body px-0 py-2">
+            <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">DOWNTIME</span><a class="text-danger ml-2 text-decoration-none" href="">CULTURE</a></p>
+            <h6 class="mb-3 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+          </div>
+        </div>
+        <div class="top-story-article col-md-3">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1535460/cul-ps-morrison-banner.jpg?w=466&amp;h=311&amp;l=42&amp;t=40&amp;q=90&amp;f=3fcf23654be174f77b05ae9722f66a4e" alt=".?.">
+          <div class="card-body px-0 py-2">
+            <p class="small mb-2 font-weight-bold"><span class="text-white bg-danger px-2 py-1">DOWNTIME</span><a class="text-danger ml-2 text-decoration-none" href="">CULTURE</a></p>
+            <h6 class="mb-3 font-weight-bold">NASA First All Female Spacewalk: Everything You Need to Know</h6>
+          </div>
+        </div>
+        <div class="top-story-article col-md-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536962/flying-high.jpg?w=480&h=320&l=47&t=28&q=90&f=59deaf22449f161ef362c4dcd6447e60" alt=".?.">
+            <p class="abs-btm bg-danger position-absolute m-0 px-2 py-1 text-white font-weight-bold" >IN FOCUS</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="mb-3 font-weight-bold text-uppercase">Flying High</h6>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="editors-picks col-sm-12 mb-4">
+      <!-- the  l e t t e r   " N " -->
+      <div class="the-letter-N-header row mx-0 my-3 justify-content-center border-bottom pb-2">
+        <div class="the-N p-0 d-flex">
+          <span class="bg-danger px-2 py-1 text-white font-weight-bolder align-self-center">N</span>
+        </div>
+        <h6 class="col-4 font-weight-bold text-uppercase m-0 align-self-center">Editor's pick</h6>
+      </div>
+      <div class="ed-picks-row-1 d-md-flex flex-wrap">
+        <!-- articles -->
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >POLITICS</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >POLITICS</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >WORLD</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >WORLD</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ed-picks-row-2 d-md-flex flex-wrap">
+        <!-- articles -->
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >TECH & SCIENCE</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >HEALTH</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >POLITICS</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-6 col-lg-3">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm bg-light position-absolute m-0 px-2 py-1 text-danger font-weight-bold" >SPACE</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="featured-slideshows col-sm-12 mb-4">
+      <!-- the  l e t t e r   " N " -->
+      <div class="the-letter-N-header row mx-0 my-3 justify-content-center border-bottom pb-3">
+        <div class="the-N p-0 d-flex">
+          <span class="the-NN px-2 py-1 text-white font-weight-bolder align-self-center">N</span>
+        </div>
+        <h6 class="col-4 font-weight-bold text-uppercase m-0 align-self-center">Featured Slideshows</h6>
+      </div>
+      <div class="ft-sshows-row-1 d-md-flex">
+        <!-- articles -->
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+      </div>
+      <div class="ft-sshows-row-2 d-md-flex">
+        <!-- articles -->
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+        <div class="top-story-article col-md-4">
+          <div class="position-relative">
+            <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1536880/trick-treating-new-york-city.jpg?w=397&h=295&f=de215108c3400a28e0cba23e34c844cf" alt=".?.">
+            <p class="abs-btm h5 r-t-l-f-s position-absolute m-0 text-danger font-weight-bold">40</p>
+          </div>
+          <div class="card-body px-0 py-2">
+            <h6 class="card-title h5 mb-1 font-weight-bold">Do people love Power Rangers or not?</h6>
+            <p class="card-text small">Carrying a blue bucket on Halloween has become a way to ask others to be sensitive to those who might find trick-or-treating a challenge.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="u-s col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">U.S.</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1538076/tornado-kansas.jpg?w=397&h=265&f=a69ae761067bb7557d7225c42f7c2e7c" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1538076/tornado-kansas.jpg?w=397&h=265&f=a69ae761067bb7557d7225c42f7c2e7c" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="world col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">World</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="business col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">Business</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537324/marine-one.jpg?w=397&h=265&f=9570185b62d33727c0ea744266c4a3a2" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1538076/tornado-kansas.jpg?w=397&h=265&f=a69ae761067bb7557d7225c42f7c2e7c" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="world col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">Tech & Science</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537434/solar-flar.jpg?w=135&h=90&l=59&t=60&f=423c5f51ccad7266b87df76d93d6cf05" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537434/solar-flar.jpg?w=135&h=90&l=59&t=60&f=423c5f51ccad7266b87df76d93d6cf05" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1537434/solar-flar.jpg?w=135&h=90&l=59&t=60&f=423c5f51ccad7266b87df76d93d6cf05" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="culture col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">Culture</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="sports col-12 border-top">
+      <h5 class="text-danger mt-3 font-weight-bold">Sports</h5>
+      <div class="d-md-flex justify-content-md-between">
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 px-0">
+          <img class="card-img-top rounded-0" src="https://d.newsweek.com/en/full/1537446/k-pop-group-loona.jpg?w=397&h=265&f=5b667cc49dd7d87eabe16c0d5e30bf90" alt="">
+          <div class="card-body pl-0 pt-2">
+            <h6 class="card-title font-weight-bold">Tropical Storm Nestor: Tornado Watch Issued for Several Florida Counties</h6>
+          </div>
+        </div>
+        <div class="col-md-4 col-12 row">
+          <div class="article media border-bottom py-2 pt-md-0">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media border-bottom py-2">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+          <div class="article media py-2 mb-4">
+            <div class="mr-3 col-4 p-0">
+              <img class="img-fluid" src="https://d.newsweek.com/en/full/1536996/iditarod-alaska-dogs.jpg?w=135&h=90&f=a4ce2d7136762b21c995023cd6f2bf93" alt="">
+            </div>
+            <div class="media-body">
+              <h6 class="mt-0 font-weight-bold mb-1">Cal Poly Investigating Photo That Appears To 'Demean' Undocumented Peers</h6>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="subscribe+newsletter col-12 d-lg-flex border-top border-bottom pb-5 pt-3">
+      <div class="col-lg-7">
+        <h5 class="text-danger mt-3 font-weight-bold">SUBSCRIBE</h5>
+        <div class="row bg-light justify-content-center text-center m-0 p-4">
+          <div>
+            <div class="subs-d-img col-md-4 col-lg-6"></div>
+          </div>
+          <div class="col-md-8 col-lg-6">
+            <h6 class="col-12 font-weight-bold mt-4 mb-3">In-depth Stories You Don't See Elsewhere About Topics You Want to Read!</h6>
+            <p class="col-10 mb-0">All Access + Weekly Delivery.</p>
+            <p class="mb-4">Choose A Membership That's Perfect for You!</p>
+            <a class="btn btn-danger font-weight-bold rounded-0" href="">SUBSCRIBE ></a>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <h5 class="text-danger mt-3 font-weight-bold">NEWSLETTER</h5>
+        <div class="nl-card row bg-light justify-content-center text-center m-0">
+          <div class="nl-img col-12 col-md-2 col-lg-7"></div>
+          <div class="text-center px-3 col-md-10 px-md-5 text-md-left col-lg-5 px-lg-4">
+            <h6 class="col-12 font-weight-bold p-md-0 mt-4 mb-3">Daily Briefing</h6>
+            <p class="mb-4">Take back your inbox. Sign up for our newsletter and start making sense of the world around you.</p>
+            <a class="btn btn-danger font-weight-bold rounded-0 mb-3" href="">SIGN UP ></a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="mx-3">
+      <div class="tp-footer d-md-flex px-3 py-4">
+        <div class="footer-logo d-md-flex">
+          <div class="nw-logo text-danger col-4 pl-0">
+            <svg version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" viewBox="0 0 395.6 60" style="width: 130px;"><g>
+              <path class="st0" d="M58.7,10.8h-5.6v48.3H42.8l-25.1-33v22.1h5.6v10.8H0V48.3h5.6V10.8H0V0h17.6L41,30.7V10.8h-5.6V0h23.2	L58.7,10.8L58.7,10.8z M95.8,38c0,0.9,0,1.8-0.1,2.7H70.3c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11	c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6C89.9,16.3,95.8,25.6,95.8,38 M159,27.3h-3.7	l-9.4,31.8h-12.5l-5.9-17.4l-5.3,17.4h-12.8L98.8,27.4h-3.7V16.6h22.1v10.7h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.6l5-16.9h-5.6V16.6	H159L159,27.3L159,27.3z M174.5,27.8c0,1.5,1.2,2.5,5.4,3.9l6,2c5.5,1.8,12.1,5.9,12.1,13.4c0,8.8-6.6,13-14.7,13	c-6.5,0-11.5-3.2-12.9-4.6V59h-10.8V44.4h10.6c0.3,4.8,4.6,7.3,8.5,7.3c3.2,0,4.7-1.4,4.7-3c0-2-1.2-3.1-6.5-4.8l-5.3-1.8	c-5.4-1.7-11.4-5.7-11.4-12.8c0-8.7,7.7-13.1,14.3-13.1c6.8,0,10.1,1.9,11.8,3.8l0.1-3.3H197v13.3h-11.2c-0.2-3.6-3.7-5.2-7.2-5.2	C175.8,24.8,174.5,26.1,174.5,27.8 M262.8,27.3h-3.7l-9.4,31.8h-12.5l-5.9-17.4L226,59.1h-12.8l-10.6-31.7h-3.7V16.6h22.1v10.7	h-5.6l5.8,16.9l7.6-27.6h6.8l9.3,27.7l5-16.9h-5.6V16.6h18.5V27.3z M302,37.9c0,0.9,0,1.8-0.1,2.7h-25.4	c-0.7,8.2,2.4,10.6,7.1,10.6c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1	c0-10.5,7-21.6,21-21.6C296.1,16.2,302,25.5,302,37.9 M343.9,37.8c0,0.9,0,1.8-0.1,2.7h-25.4c-0.7,8.2,2.4,10.6,7.1,10.6	c3.9,0,6.9-2.6,6.9-6.6h11c-0.3,7.2-4,15.4-18.5,15.4c-14.5,0-21.3-10.5-21.3-22.1c0-10.5,7-21.6,21-21.6	C338,16.1,343.9,25.4,343.9,37.8 M389.9,59h-12.8l-13.3-17.3l-4.3,3.2v3.4h3.8V59h-19.6V48.3h3.7V10.6h-5.6V0h17.8v33.9l8.9-6.5	h-5.6V16.6h23.9v10.8h-3.7l-9.3,7l10.7,13.9h5.6L389.9,59L389.9,59z M395.6,56.6c0,0.5-0.1,0.9-0.4,1.2c-0.2,0.4-0.5,0.7-0.9,0.9	c-0.4,0.2-0.8,0.4-1.3,0.4c-0.5,0-0.9-0.1-1.2-0.4c-0.4-0.2-0.7-0.5-0.9-0.9c-0.2-0.4-0.4-0.8-0.4-1.2c0-0.5,0.1-0.9,0.4-1.2	c0.2-0.4,0.5-0.7,0.9-0.9c0.4-0.2,0.8-0.4,1.2-0.4c0.5,0,0.9,0.1,1.3,0.4c0.4,0.2,0.7,0.5,0.9,0.9	C395.5,55.8,395.6,56.2,395.6,56.6 M394.6,58c0.4-0.4,0.6-0.9,0.6-1.4c0-0.6-0.2-1-0.6-1.4s-0.9-0.6-1.4-0.6s-1,0.2-1.4,0.6	c-0.4,0.4-0.6,0.9-0.6,1.4c0,0.6,0.2,1,0.6,1.4c0.4,0.4,0.9,0.6,1.4,0.6S394.2,58.4,394.6,58 M393.6,56.8c0.1,0.1,0.2,0.1,0.2,0.1	c0.1,0.1,0.2,0.2,0.2,0.3c0,0,0.2,0.3,0.4,0.8h-0.8c-0.3-0.5-0.4-0.8-0.5-0.9c-0.1-0.1-0.2-0.2-0.3-0.2c0,0-0.1,0-0.1,0v1.1h-0.6	v-2.6h1.2c0.4,0,0.6,0.1,0.7,0.2c0.2,0.2,0.2,0.3,0.2,0.6c0,0.2-0.1,0.4-0.2,0.5C393.9,56.6,393.8,56.7,393.6,56.8 M393.5,56.3	c0.1-0.1,0.1-0.2,0.1-0.3s-0.1-0.2-0.1-0.3c-0.1-0.1-0.2-0.1-0.4-0.1h-0.3v0.7h0.3C393.3,56.4,393.4,56.4,393.5,56.3 M318.4,33.5	h13.9c0-6-3.9-8.4-6.8-8.4C322.1,25.2,318.6,27.9,318.4,33.5 M276.5,33.6h13.9c0-6-3.9-8.4-6.8-8.4C280.3,25.2,276.8,28,276.5,33.6 M70.3,33.7h13.9c0-6-3.9-8.4-6.8-8.4C74.1,25.3,70.6,28.1,70.3,33.7"></path>
+            </g></svg>
+          </div>
+          <p class="m-0 p-0 small text-secondary align-self-end pl-md-4">© 600b.C. NEWSWEEK</p>
+        </div>
+        <div class="social d-flex mt-2">
+          <div class="facebook svg-logo px-1">
+            <svg class="" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 30 30">
+            <path d="M24,4H6C4.895,4,4,4.895,4,6v18c0,1.105,0.895,2,2,2h10v-9h-3v-3h3v-1.611C16,9.339,17.486,8,20.021,8 c1.214,0,1.856,0.09,2.16,0.131V11h-1.729C19.376,11,19,11.568,19,12.718V14h3.154l-0.428,3H19v9h5c1.105,0,2-0.895,2-2V6 C26,4.895,25.104,4,24,4z"></path></svg>
+          </div>
+          <div class="tweeter svg-logo px-1">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="26" height="26" viewBox="0 0 30 30">
+            <path d="M28,6.937c-0.957,0.425-1.985,0.711-3.064,0.84c1.102-0.66,1.947-1.705,2.345-2.951c-1.03,0.611-2.172,1.055-3.388,1.295 c-0.973-1.037-2.359-1.685-3.893-1.685c-2.946,0-5.334,2.389-5.334,5.334c0,0.418,0.048,0.826,0.138,1.215 c-4.433-0.222-8.363-2.346-10.995-5.574C3.351,6.199,3.088,7.115,3.088,8.094c0,1.85,0.941,3.483,2.372,4.439 c-0.874-0.028-1.697-0.268-2.416-0.667c0,0.023,0,0.044,0,0.067c0,2.585,1.838,4.741,4.279,5.23 c-0.447,0.122-0.919,0.187-1.406,0.187c-0.343,0-0.678-0.034-1.003-0.095c0.679,2.119,2.649,3.662,4.983,3.705 c-1.825,1.431-4.125,2.284-6.625,2.284c-0.43,0-0.855-0.025-1.273-0.075c2.361,1.513,5.164,2.396,8.177,2.396 c9.812,0,15.176-8.128,15.176-15.177c0-0.231-0.005-0.461-0.015-0.69C26.38,8.945,27.285,8.006,28,6.937z"></path></svg>
+          </div>
+          <div class="instagram svg-logo px-1">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+            <path d="M 12 3 C 7.04 3 3 7.04 3 12 L 3 38 C 3 42.96 7.04 47 12 47 L 38 47 C 42.96 47 47 42.96 47 38 L 47 12 C 47 7.04 42.96 3 38 3 L 12 3 z M 38 8 L 41 8 C 41.55 8 42 8.45 42 9 L 42 12 C 42 12.55 41.55 13 41 13 L 38 13 C 37.45 13 37 12.55 37 12 L 37 9 C 37 8.45 37.45 8 38 8 z M 25 10 C 30.33 10 35.019688 12.8 37.679688 17 L 42 17 L 42 37 C 42 39.76 39.76 42 37 42 L 13 42 C 10.24 42 8 39.76 8 37 L 8 17 L 12.320312 17 C 14.980313 12.8 19.67 10 25 10 z M 25 12 C 17.83 12 12 17.83 12 25 C 12 32.17 17.83 38 25 38 C 32.17 38 38 32.17 38 25 C 38 17.83 32.17 12 25 12 z M 25 16 C 29.96 16 34 20.04 34 25 C 34 29.96 29.96 34 25 34 C 20.04 34 16 29.96 16 25 C 16 20.04 20.04 16 25 16 z"></path></svg>
+          </div>
+          <div class="tumblr svg-logo px-1">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 80 80"><path class="svg-logo" fill="#000" d="M42.777,77.5c-6.814,0-11.599-3.134-14.22-9.315C27.23,65.057,26.5,61.131,26.5,57.133V33.5H17 c-0.275,0-0.5-0.224-0.5-0.5v-8.367c0-0.199,0.103-0.366,0.274-0.447c10.063-4.717,15.348-11.843,15.707-21.182 c0.011-0.282,0.218-0.496,0.481-0.496C35.2,2.504,40.738,2.501,43.007,2.5c0.133,0,0.256,0.051,0.349,0.145 C43.448,2.739,43.5,2.865,43.5,3v17.5H59c0.275,0,0.5,0.224,0.5,0.5v12c0,0.276-0.225,0.5-0.5,0.5H43.5v23.266 c-0.005,0.851,0.138,3.739,2.15,5.762c1.302,1.309,3.11,1.972,5.377,1.972c4.364,0,9.258-1.731,11.785-2.763 c0.063-0.026,0.128-0.039,0.192-0.039c0.238,0,0.495,0.192,0.495,0.501v9.695c0,0.17-0.076,0.318-0.208,0.407 C61.467,73.521,54.594,77.5,42.777,77.5z"></path><path class="svg-logo" fill="#000" d="M43,3L43,3v17v1h1h15v12H44h-1v1l0,22.777c-0.005,0.886,0.147,3.943,2.295,6.103 c1.399,1.407,3.328,2.12,5.732,2.12c4.451,0,9.413-1.755,11.972-2.8l0.014,9.687C61.218,73.086,54.449,77,42.778,77 c-6.595,0-11.225-3.032-13.76-9.01C27.716,64.921,27,61.066,27,57.126V34v-1h-1l-9,0l-0.013-8.361 c10.246-4.802,15.627-12.074,15.977-21.631C35.198,3.004,40.726,3.001,43,3 M43.007,2L43.007,2 C40.738,2.001,35.2,2.004,32.962,2.007c-0.539,0.001-0.96,0.438-0.98,0.977C31.455,16.67,19.906,22.166,16.562,23.733 C16.211,23.898,16,24.245,16,24.632V33c0,0.552,0.448,1,1,1h9v23.127C26,59.262,25.982,78,42.778,78 c12.031,0,19.049-4.118,20.792-5.282C63.845,72.534,64,72.226,64,71.895V62.2c0-0.576-0.468-1.002-0.996-1.002 c-0.125,0-0.254,0.024-0.38,0.076C60.284,62.229,55.362,64,51.028,64C43.857,64,44,57.058,44,56.765V34h15c0.552,0,1-0.448,1-1V21 c0-0.552-0.448-1-1-1H44V3C44,2.448,43.56,2,43.007,2L43.007,2z"></path></svg>
+          </div>
+          <div class="linkedin svg-logo px-1">
+            <svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="24" height="24" viewBox="0 0 50 50">
+            <path d="M 8 3.0097656 C 4.53 3.0097656 2.0097656 5.0892187 2.0097656 7.9492188 C 2.0097656 10.819219 4.59 12.990234 8 12.990234 C 11.47 12.990234 13.990234 10.870625 13.990234 7.890625 C 13.830234 5.020625 11.36 3.0097656 8 3.0097656 z M 3 15 C 2.45 15 2 15.45 2 16 L 2 45 C 2 45.55 2.45 46 3 46 L 13 46 C 13.55 46 14 45.55 14 45 L 14 16 C 14 15.45 13.55 15 13 15 L 3 15 z M 18 15 C 17.45 15 17 15.45 17 16 L 17 45 C 17 45.55 17.45 46 18 46 L 27 46 C 27.552 46 28 45.552 28 45 L 28 30 L 28 29.75 L 28 29.5 C 28 27.13 29.820625 25.199531 32.140625 25.019531 C 32.260625 24.999531 32.38 25 32.5 25 C 32.62 25 32.739375 24.999531 32.859375 25.019531 C 35.179375 25.199531 37 27.13 37 29.5 L 37 45 C 37 45.552 37.448 46 38 46 L 47 46 C 47.55 46 48 45.55 48 45 L 48 28 C 48 21.53 44.529063 15 36.789062 15 C 33.269062 15 30.61 16.360234 29 17.490234 L 29 16 C 29 15.45 28.55 15 28 15 L 18 15 z"></path></svg>
+          </div>
+        </div>
+      </div>
+      <div class="bt-footer small border-top text-secondary d-lg-flex px-2 pb-3">
+        <ul class="ft-list1 list-group-flush d-flex flex-wrap p-0">
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">About Us</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Corrections</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Contact Us</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Editorial Guidelines</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Advertise</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Copyright</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Terms & Conditions</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Privacy Policy</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Cookie Policy</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Terms of Sale</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Archive</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Announcements</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Consent preferences</li>
+        </ul>
+        <ul class="ft-list2 d-flex flex-wrap d-flex flex-wrap p-0">
+          <li class="ft-list-item list-group-item px-2 py-1 border-0 font-weight-bold">Editions:</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">U.S. Edition</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">日本</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">한국</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Pakistan</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">Polska</li>
+          <li class="ft-list-item list-group-item px-2 py-1 border-0">România</li>
+        </ul>
+      </div>
+    </footer>
+
+
+  <!-- Javascript needed for Bootstrap -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,68 @@
+.abs-btm { bottom: 0; }
+
+.art-red-img {
+  background: url(https://www.stickpng.com/assets/images/580b57fbd9996e24bc43bd06.png) 50% 50% no-repeat, linear-gradient(#f00, #f00);
+  background-size: 70%, 100%;
+  height: 63px;
+  width: 63px;
+}
+
+.the-N { font-family: Impact, fantasy; }
+
+.the-NN {
+  background: linear-gradient(#f00, #f00), linear-gradient(#fff, #fff), linear-gradient(#f00, #f00);
+  background-position: 0% 0%, 50% 50%, 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 90% 90%, 85% 85%, 85% 85%;
+  height: 35px;
+  width: 35px;
+}
+
+.r-t-l-f-s {
+  background: linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee), linear-gradient(#e00, #e00), linear-gradient(#eee, #eee);
+  background-position: 76% 75%, 80% 80%, 67% 65%, 59% 51%, 49% 40%, 42% 26%, 100% 100%;
+  background-repeat: no-repeat;
+  background-size: 54% 52%, 60% 60%, 60% 61%, 60% 60%, 60% 62%, 60% 60%, 100% 100%;
+  padding: 18px 0 0 30px;
+  height: 50px;
+  width: 70px;
+}
+
+/* 100% 100%, 90% 85% */
+.subs-d-img {
+  background: url(https://d.newsweek.com/en/full/1536427/october-25-2019.jpg?w=170&q=95&f=0333f16b44e9f9eea68d782c8b69ddb4) 100% 100% no-repeat, url(https://d.newsweek.com/en/full/1531488/october-11-18-2019.jpg?w=170&q=95&f=a78cd4d1f090989a835fd1efa3fa1833) 12% 0% no-repeat;
+  height: 241px;
+  max-width: 260px !important; /* 170x227px_ _with a normal width it didn't obbey */
+  width: 260px !important;
+}
+
+.nw-logo { fill: #f00; }
+
+.nw-logo-n1 { fill: #fff; }
+
+.nw-logo-n2 {
+  fill: #fff;
+  width: 160px;
+}
+
+.n-bottom { clip-path: polygon(0 0, 0 100%, 0 100%, 88% 100%, 85% 0); }
+
+.nl-img {
+  background: url("https://d.newsweek.com/en/full/1525348/newsletter-promo-home-page.png?w=397&h=265&q=90&f=172a044c08b5e64f42dcb61b425487bf") no-repeat scroll center center / cover;
+  min-height: 160px;
+  max-height: 370px;
+}
+
+.continued-small { z-index: -1 !important; }
+
+section { z-index: -3 !important; }
+
+.svg-logo { fill: #666; }
+
+.svg-logo:hover { fill: #06f; }
+
+@media (min-width: 992px) { .h-txt { display: none; } }
+
+@media (max-width: 500px) { .smaller-txt { font-size: 0.8rem; } }
+
+@media (max-width: 400px) { .smaller-svg { width: 100px !important; } }
